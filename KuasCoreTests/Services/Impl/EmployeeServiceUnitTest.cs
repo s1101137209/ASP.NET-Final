@@ -40,9 +40,9 @@ namespace KuasCoreTests.Services.Impl
         {
 
             Employee employee = new Employee();
-            employee.Id = "UnitTests";
-            employee.Name = "單元測試";
-            employee.Age = "請做出單元測試";
+            employee.Id = "1101137215";
+            employee.Name = "郭哲佑";
+            employee.Age = "66";
             EmployeeService.AddEmployee(employee);
 
             Employee dbEmployee = EmployeeService.GetEmployeeByName(employee.Name);

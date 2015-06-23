@@ -38,9 +38,9 @@ namespace KuasCoreTests.Dao
         public void TestEmployeeDao_AddEmployee()
         {
             Employee employee = new Employee();
-            employee.Id = "UnitTests";
-            employee.Name = "單元測試";
-            employee.Age = "請做出單元測試";
+            employee.Id = "1101137251";
+            employee.Name = "蔣定文";
+            employee.Age = "12";
             EmployeeDao.AddEmployee(employee);
 
             Employee dbEmployee = EmployeeDao.GetEmployeeByName(employee.Name);
