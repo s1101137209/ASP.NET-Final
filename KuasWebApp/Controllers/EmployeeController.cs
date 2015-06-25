@@ -1,4 +1,4 @@
-﻿using KuasCore.Models;
+using KuasCore.Models;
 using KuasCore.Services;
 using System;
 using System.Collections.Generic;
