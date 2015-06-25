@@ -101,9 +101,9 @@
     <Compile Include="Services\Impl\EmployeeServiceUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KuasCore\KuasCore.csproj">
+    <ProjectReference Include="..\KuasCore\NonkCore.csproj">
       <Project>{c4bbce56-ecd7-494c-9731-5093f529df69}</Project>
-      <Name>KuasCore</Name>
+      <Name>NonkCore</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
